@@ -1,0 +1,42 @@
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    margin-top: 40px;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+
+button{
+    
+    background-color: rgb(206, 118, 111);
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    padding: 5px 5px;
+
+    &:hover{
+        background-color: #007bff;
+    }
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
